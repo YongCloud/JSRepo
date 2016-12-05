@@ -1,0 +1,14 @@
+ReactDOM.render(
+	<div>
+		<h1>Hello,Nanjing!</h1>
+		{/*这是注释*/}
+		<h1>Hello,Hangzhou!</h1>
+		<h1>Hello,Guangzhou!</h1>
+		{/* 
+			这是第一行注释
+			这是第二行注释
+		*/}
+		<h1>Hello,Guiyang!</h1>
+	</div>,
+	document.getElementById('example')
+	);

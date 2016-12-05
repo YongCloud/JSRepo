@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Learn React</title>
+		<script src="http://static.runoob.com/assets/react/react-0.14.7/build/react.min.js"></script> <!-- React 的核心库 -->
+	    <script src="http://static.runoob.com/assets/react/react-0.14.7/build/react-dom.min.js"></script> <!-- DOM相关库 -->
+	    <script src="http://static.runoob.com/assets/react/browser.min.js"></script> <!-- 用于将JSX语法转为JavaScript语法 -->
+	</head>
+	<body>
+		<div id = "example"></div>
+		<script type="text/babel">
+			ReactDOM.render(
+				<div>
+					<h1>Hello,Nanjing!</h1>
+					<h1>Hello,Hangzhou!</h1>
+					<h1>Hello,Guangzhou!</h1>
+					<h1>Hello,Guiyang!</h1>
+				</div>,
+				document.getElementById('example')
+				);
+		</script>
+	</body>
+</html>
